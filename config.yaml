@@ -1,0 +1,8 @@
+path: /home/ubuntu/ImgGen/lab3/data/yolov8_f
+train: /home/ubuntu/ImgGen/lab3/data/yolov8_f/train
+val: &a /home/ubuntu/ImgGen/lab3/data/yolov8_f/val
+test: *a 
+
+# Classes
+names:
+  0: road sign
